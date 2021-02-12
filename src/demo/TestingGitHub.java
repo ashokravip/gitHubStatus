@@ -16,9 +16,9 @@ public class TestingGitHub {
 		}
 		System.out.println(reverse);
 		
+		StringBuffer sb = new StringBuffer(name);
 		
-		
-		
+		System.out.println(sb.reverse());
 	}
 
 }
